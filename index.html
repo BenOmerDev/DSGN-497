@@ -26,21 +26,25 @@
                     <li>Buy Cool Merch</li>
                 </ul>
             </div>
-            <div>
-                <form>
-                    <label for="name">What is your name?</label>
-                    <input type="text" id="name" name="name">
-                  
-                    <label for="favorite-color">What is your favorite color?</label>
-                    <input type="text" id="favorite-color" name="favoriteColor">
-                  
-                    <button>Submit form!</button>
-                  </form>
-            </div>
         </div>
         <div class="flex w-1/4">
             <img class="border-4 border-green-600 my-4" src="A.jpg"> <img class="border-4 border-green-600 my-4" src="I.jpg">
         </div>
+    </div>
+    <div>
+        <p class="font-bold text-green-600 text-2xl">Sign up for a notification when Tic Tac Toe AI goes live!</p>
+        <form netlify>
+            <label class="block mt-4 font-bold" for="name">Your Name:</label>
+            <input class="p-2 w-64 border border-gray-600 rounded" type="text" id="name" name="name">
+      
+            <label class="block mt-4 font-bold" for="email">Your Email:</label>
+            <input class="p-2 w-64 border border-gray-600 rounded" type="text" id="email" name="email">
+          
+            <label class="block mt-4 font-bold" for="order">Comments/Questions:</label>
+            <textarea rows="6" class="p-2 md:w-1/2 w-full border border-gray-400 rounded" id="comments" name="comments"></textarea>
+          
+            <button class="block font-bold mt-4 text-white bg-yellow-600 rounded px-4 py-2">Submit form!</button>
+          </form>
     </div>
 </body>
 </html>
